@@ -46,11 +46,7 @@ const Timer = () => {
     setLaps([]);
   };
 
-  const addLap = () => {
-    if (isRunning) {
-      setLaps([...laps, displayTime()]);
-    }
-  };
+
 
   const lapTimer = () => {
     const lapTime = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(
