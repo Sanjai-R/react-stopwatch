@@ -1,7 +1,8 @@
 import "./App.css";
+import Timer from "./components/TimerComponent";
 
 function App() {
-  return <div className="App">Stop Watch</div>;
+  return <Timer />;
 }
 
 export default App;
